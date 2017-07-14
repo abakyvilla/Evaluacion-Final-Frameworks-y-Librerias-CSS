@@ -5,3 +5,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+#padre {
+  background-color: rgba(75, 143, 221, 0.2);
+}
