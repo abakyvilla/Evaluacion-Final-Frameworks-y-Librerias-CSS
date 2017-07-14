@@ -1,0 +1,17 @@
+body {
+  background-color: #AF3535;
+}
+.container {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background-color: #FFFFFF;
+}
+.alinear {
+  padding-top: 9%;
+}
+a:visited {
+  color: black;
+}
+.centrar-img {
+  margin-top: 8%;
+}
