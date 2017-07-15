@@ -8,3 +8,16 @@ body {
 #padre {
   background-color: rgba(75, 143, 221, 0.2);
 }
+.right {
+  float: right;
+}
+.borde {
+  border: 1px solid silver;
+  border-radius: 7px;
+}
+.centro {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
