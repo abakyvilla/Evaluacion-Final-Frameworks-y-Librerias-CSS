@@ -6,20 +6,27 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/estilos.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Blog de Turismo</title>
   </head>
   <body>
     <div class="row lime amber accent-1">
-      <div class="col l12"> <!-- columna que contiene el logo -->
-        <div class="col l3 valign-wrapper">
-          <img class="responsive-img" src="img/honduras.png" alt="Turismo">
+      <div class="col l12">
+        <div class="col l1 col m2 col s4">
+          <img class="responsive-img" src="img/logo.png" alt="Turismo">
         </div>
-        <div class="col l7 push-l2">
-          <a class="waves-effect amber accent-3 btn">Inicio</a>
+        <div class="col l7 push-l3 col m10 hide-on-small-only"> <!-- Botones del Menu para pantallas grandes -->
+          <a class="waves-effect amber accent-3 btn">Inicio<i class="material-icons left">home</i></a>
           <a class="waves-effect amber accent-3 btn"><i class="material-icons left">location_on</i>Estuve En</a>
           <a class="waves-effect amber accent-3 btn"><i class="material-icons right">info</i>Mejores Viajes</a>
           <a class="waves-effect amber accent-3 btn"><i class="material-icons right">stars</i>Recomendaciones</a>
+        </div>
+        <div class="col l7 push-l3 col s8 hide-on-med-and-up"> <!-- Botones del Menu para pantallas Moviles -->
+          <a class="waves-effect amber accent-3 btn"><i class="material-icons center">home</i></a>
+          <a class="waves-effect amber accent-3 btn"><i class="material-icons center">location_on</i></a>
+          <a class="waves-effect amber accent-3 btn"><i class="material-icons center">info</i></a>
+          <a class="waves-effect amber accent-3 btn"><i class="material-icons center">stars</i></a>
         </div>
       </div>
     </div>
@@ -28,7 +35,7 @@
       <div class="col l12">
         <div class="col l4">
           <div class="row">
-              <div class="col l2">
+              <div class="col l2 hide-on-small-only">
                 <p><a href="#"><img class="responsive-img" src="img/fb.png" alt=""></a></p>
                 <p><a href="#"><img class="responsive-img" src="img/insta.png" alt=""></a></p>
                 <p><a href="#"><img class="responsive-img" src="img/pin.png" alt=""></a></p>
@@ -37,26 +44,26 @@
               </div>
               <div class="col l10">
                 <p>
-                  <img class="responsive-img" src="img/noche.jpg" alt="">
+                  <img class="responsive-img z-depth-5" src="img/noche.jpg" alt="">
                 </p>
                 <p>
-                  <img class="responsive-img" src="img/roatan.jpg" alt="">
+                  <img class="responsive-img z-depth-5" src="img/roatan.jpg" alt="">
                 </p>
               </div>
           </div>
         </div>
         <div class="col l4">
           <p>
-            <img class="responsive-img" src="img/ruina.jpg" alt="">
+            <img class="responsive-img z-depth-5" src="img/ruina.jpg" alt="">
           </p>
         </div>
         <div class="col l4">
           <div class="col l10">
             <p>
-              <img class="responsive-img" src="img/noche.jpg" alt="">
+              <img class="responsive-img z-depth-5" src="img/noche.jpg" alt="">
             </p>
             <p>
-              <img class="responsive-img" src="img/roatan.jpg" alt="">
+              <img class="responsive-img z-depth-5" src="img/roatan.jpg" alt="">
             </p>
           </div>
         </div>
@@ -64,8 +71,12 @@
 
       <div class="row">
         <div class="col l12">
-          <div class="col l8">
+          <div class="col l8 amber lighten-3">
             <h5>Puerto de Amapala</h5>
+            <div class="col l3">
+              <img class="responsive-img z-depth-5" src="img/amapala.jpg" alt="">
+            </div>
+
             <div class="chip">
               <label for="">17 de Julio de 2017 <i class="tiny material-icons">today</i></label>
             </div>
@@ -87,12 +98,14 @@
                 culpa qui officia deserunt mollit anim id est laborum.
               </p>
           </div>
-          <div class="col l3">
-            <div class="col l6 valign-wrapper offset-l3">
-              <img class="valign center-align responsive-img circle" src="img/james.jpg" alt="">
+          <div class="col l3 hide-on-small-only">
+            <div class="col l12 amber lighten-3">
+              <div class="col l7 offset-l2">
+                <img class="responsive-img circle" src="img/james.jpg" alt="">
+              </div>
             </div>
-            <div class="col l12">
-              <h5 class="center">Perfil del Autor</h5>
+            <div class="col l12 amber lighten-3 center">
+              <h5>Perfil del Autor</h5>
               <hr>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -107,10 +120,10 @@
       </div>
 
       <div class="row">
-          <div class="col l12 lime amber accent-1">
-            <h4 style="color:#FFFFFF;">Dejanos Tu Comentario</h4>
+          <div class="col l12">
             <div class="row">
-              <div class="col l8">
+              <div class="col l8 lime amber accent-1">
+                <h4 style="color:#FFFFFF;">Dejanos Tu Comentario</h4>
                 <div class="input-field col l6">
                     <i class="material-icons prefix">account_circle</i>
                     <input id="icon_prefix" type="text" class="validate">

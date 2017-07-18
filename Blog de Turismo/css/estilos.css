@@ -1,3 +1,9 @@
 body {
-  background-image: url('http://www.fondospantallagratis.com/wp-content/uploads/2008/10/roatan_honduras-1600x1200.jpg');
+  background-image: url(http://www.hondurastips.hn/wp-content/uploads/2015/04/roatan.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
