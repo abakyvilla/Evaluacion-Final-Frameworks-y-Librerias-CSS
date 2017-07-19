@@ -16,13 +16,17 @@
         <div class="col l1 col m2 col s4">
           <img class="responsive-img" src="img/logo.png" alt="Turismo">
         </div>
-        <div class="col l7 push-l3 col m10 hide-on-small-only"> <!-- Botones del Menu para pantallas grandes -->
-          <a class="waves-effect amber accent-3 btn">Inicio<i class="material-icons left">home</i></a>
-          <a class="waves-effect amber accent-3 btn"><i class="material-icons left">location_on</i>Estuve En</a>
-          <a class="waves-effect amber accent-3 btn"><i class="material-icons right">info</i>Mejores Viajes</a>
-          <a class="waves-effect amber accent-3 btn"><i class="material-icons right">stars</i>Recomendaciones</a>
+        <div class="col l8 push-l3 col m10 hide-on-med-and-down" style="margin-top:1%;"> <!-- Botones del Menu para pantallas grandes -->
+          <div class="row">
+            <div class="col l12">
+                <a class="waves-effect amber accent-3 btn flow-text"><i class="material-icons left">home</i>Inicio</a>
+                <a class="waves-effect amber accent-3 btn flow-text"><i class="material-icons left">location_on</i>Estuve En...</a>
+                <a class="waves-effect amber accent-3 btn flow-text"><i class="material-icons left">info</i>Mejores Viajes</a>
+                <a class="waves-effect amber accent-3 btn "><i class="material-icons left">stars</i>Recomendaciones</a>
+            </div>
+          </div>
         </div>
-        <div class="col l7 push-l3 col s8 hide-on-med-and-up"> <!-- Botones del Menu para pantallas Moviles -->
+        <div class="col l7 push-l3 col s8 hide-on-large-only" style="margin-top:1%;"> <!-- Botones del Menu para pantallas Moviles -->
           <a class="waves-effect amber accent-3 btn"><i class="material-icons center">home</i></a>
           <a class="waves-effect amber accent-3 btn"><i class="material-icons center">location_on</i></a>
           <a class="waves-effect amber accent-3 btn"><i class="material-icons center">info</i></a>
@@ -30,12 +34,20 @@
         </div>
       </div>
     </div>
+    <div class="row">
+        <div class="col l11 push-l1">
+          <h2 style="color:#FFFFFF;font-family:entangled;"><strong>El Corazón de Centroamerica</strong></h2>
+        </div>
+    </div>
+
+
+
 
     <div class="row">
       <div class="col l12">
         <div class="col l4">
           <div class="row">
-              <div class="col l2 hide-on-small-only">
+              <div class="col l2 hide-on-med-and-down">
                 <p><a href="#"><img class="responsive-img" src="img/fb.png" alt=""></a></p>
                 <p><a href="#"><img class="responsive-img" src="img/insta.png" alt=""></a></p>
                 <p><a href="#"><img class="responsive-img" src="img/pin.png" alt=""></a></p>
@@ -60,15 +72,16 @@
         <div class="col l4">
           <div class="col l10">
             <p>
-              <img class="responsive-img z-depth-5" src="img/noche.jpg" alt="">
+              <img class="responsive-img z-depth-5" src="img/copan.jpg" alt="">
             </p>
             <p>
-              <img class="responsive-img z-depth-5" src="img/roatan.jpg" alt="">
+              <img class="responsive-img z-depth-5" src="img/roa.jpg" alt="">
             </p>
           </div>
         </div>
       </div> <!-- FIN DEL PRIMER ROW -->
 
+      <!-- PRIMER ARTICULO O POST DEL BLOG -->
       <div class="row">
         <div class="col l12">
           <div class="col l8 amber lighten-3">
@@ -98,7 +111,86 @@
                 culpa qui officia deserunt mollit anim id est laborum.
               </p>
           </div>
-          <div class="col l3 hide-on-small-only">
+          <div class="col l3 hide-on-med-and-down">
+            <div class="col l12 amber lighten-3">
+              <div class="col l7 offset-l2">
+                <img class="responsive-img circle" src="img/ney.jpg" alt="">
+              </div>
+            </div>
+            <div class="col l12 amber lighten-3 center">
+              <h5>Perfil del Autor</h5>
+              <hr>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+          <div class="col l12">
+            <div class="row">
+              <div class="col l8 lime amber accent-1">
+                <h4 style="color:#FFFFFF;">Dejanos Tu Comentario</h4>
+                <div class="input-field col l6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="icon_prefix" type="text" class="validate">
+                    <label style="color:#FFFFFF;" for="icon_prefix">Nombre</label>
+                </div>
+                <div class="input-field col l6">
+                    <i class="material-icons prefix">email</i>
+                    <input id="icon_email" type="tel" class="validate">
+                    <label style="color:#FFFFFF;" for="icon_email">Correo</label>
+                </div>
+                <div class="input-field col l12">
+                    <i class="material-icons prefix">comment</i>
+                    <input id="icon_comment" type="tel" class="validate">
+                    <label style="color:#FFFFFF;" for="icon_comment">Comentario</label>
+                    <a class="waves-effect amber accent-3 btn right">Enviar</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+      <!-- SEGUNDO ARTICULO O POST DEL BLOG -->
+      <div class="row">
+        <div class="col l12">
+          <div class="col l8 amber lighten-3">
+            <h5>La Ceiba</h5>
+            <div class="col l3">
+              <img class="responsive-img z-depth-5" src="img/ceiba.jpg" alt="">
+            </div>
+
+            <div class="chip">
+              <label for="">19 de Julio de 2017 <i class="tiny material-icons">today</i></label>
+            </div>
+            <div class="chip">
+              <label for="">Puerto Cortes, Honduras <i class="tiny material-icons">location_on</i></label>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+               fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+               culpa qui officia deserunt mollit anim id est laborum.
+             </p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+          </div>
+          <div class="col l3 hide-on-med-and-down">
             <div class="col l12 amber lighten-3">
               <div class="col l7 offset-l2">
                 <img class="responsive-img circle" src="img/james.jpg" alt="">
@@ -131,18 +223,20 @@
                 </div>
                 <div class="input-field col l6">
                     <i class="material-icons prefix">email</i>
-                    <input id="icon_telephone" type="tel" class="validate">
-                    <label style="color:#FFFFFF;" for="icon_telephone">Correo</label>
+                    <input id="icon_email" type="tel" class="validate">
+                    <label style="color:#FFFFFF;" for="icon_email">Correo</label>
                 </div>
                 <div class="input-field col l12">
                     <i class="material-icons prefix">comment</i>
-                    <input id="icon_telephone" type="tel" class="validate">
-                    <label style="color:#FFFFFF;" for="icon_telephone">Comentario</label>
+                    <input id="icon_comment" type="tel" class="validate">
+                    <label style="color:#FFFFFF;" for="icon_comment">Comentario</label>
+                    <a class="waves-effect amber accent-3 btn right">Enviar</a>
                 </div>
               </div>
             </div>
           </div>
       </div>
+
 
     </div> <!-- FIN ROW PRINCIPAL -->
 
